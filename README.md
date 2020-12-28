@@ -17,8 +17,8 @@ In this article we are not going to see how to create server-less web form,you c
 8) zip the lambda code and uplaod on lambda function.<br/>
 
 <br/>
-*Directory Structure*<br/>
+###Directory Structure###<br/>
 lambda/index.js --> This file has lambda code for which has reCaptcha verification, DynamoDB Put data.<br/>
 index.html --> This file has client side JS and html code for transfering data to backend<br/>
 
-[Article to for understanding](https://medium.com/) 
+[Article for understanding](https://medium.com/) 
