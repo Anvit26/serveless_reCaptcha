@@ -23,7 +23,7 @@ exports.handler = function(event, context, callback) {
         },
         TableName: 'formtable'      //Change table name                                        
     };
-    request(url,function(error,response,body) {
+    request(url,function(error,response,body) {             //making HTTP request for verification
       var dbody = JSON.parse(body);
   
       if(dbody.success == true){                            //captcha successful verification 
