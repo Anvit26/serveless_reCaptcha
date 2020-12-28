@@ -26,7 +26,7 @@ exports.handler = function(event, context, callback) {
     request(url,function(error,response,body) {
       var dbody = JSON.parse(body);
   
-      if(dbody.success === true){
+      if(dbody.success == true){                            //captcha successful verification 
           console.log('[INFO]:captcha Sucess');
 
         //dynamo start
